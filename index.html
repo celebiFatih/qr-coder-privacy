@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QR Coder – Gizlilik Politikası / Privacy Policy</title>
+  <meta name="description" content="QR Coder Gizlilik Politikası / Privacy Policy">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --fg: #1f1f1f;
+      --muted: #666666;
+      --card: #f7f2fb;
+      --accent: #673ab7;
+      --border: #ded7e5;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121212;
+        --fg: #f1f1f1;
+        --muted: #b7b7b7;
+        --card: #1d1822;
+        --accent: #b69cff;
+        --border: #3a3340;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    h1, h2, h3 { line-height: 1.25; }
+    h1 { margin-bottom: 8px; }
+    h2 { margin-top: 36px; color: var(--accent); }
+    h3 { margin-top: 24px; }
+    a { color: var(--accent); }
+    .meta, .note { color: var(--muted); }
+    .nav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 20px 0 28px;
+    }
+    .nav a {
+      text-decoration: none;
+      border: 1px solid var(--border);
+      padding: 8px 12px;
+      border-radius: 999px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+      margin: 18px 0;
+    }
+    ul { padding-left: 24px; }
+    hr { border: 0; border-top: 1px solid var(--border); margin: 52px 0; }
+    code { overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>QR Coder – Gizlilik Politikası / Privacy Policy</h1>
+  <p class="meta"><strong>Son güncelleme / Last updated:</strong> 19 Ağustos 2026 / 19 August 2026</p>
+  <p class="meta"><strong>Uygulama / App:</strong> QR Coder</p>
+  <p class="meta"><strong>Geliştirici / Developer:</strong> Fatih Çelebi</p>
+  <p class="meta"><strong>İletişim / Contact:</strong> <a href="mailto:fatihcelebi13@gmail.com">fatihcelebi13@gmail.com</a></p>
+
+  <nav class="nav" aria-label="Language navigation">
+    <a href="#tr">Türkçe</a>
+    <a href="#en">English</a>
+    <a href="account-deletion.html">Hesap Silme / Account Deletion</a>
+  </nav>
+
+  <section id="tr">
+    <h2>Türkçe</h2>
+
+    <h3>1. Kapsam</h3>
+    <p>
+      Bu Gizlilik Politikası, QR Coder mobil uygulamasının kullanıcı ve cihaz verilerini nasıl
+      işlediğini açıklar. QR Coder; hesap oluşturmadan misafir olarak kullanılabilir veya e-posta
+      adresi ve parola ile bir hesap oluşturularak bulut özellikleriyle kullanılabilir.
+    </p>
+
+    <h3>2. İşlediğimiz veri türleri</h3>
+    <div class="card">
+      <strong>Misafir kullanımı</strong>
+      <p>
+        Hesap oluşturmadan devam ettiğinizde oluşturduğunuz veya tarayıp kaydettiğiniz QR kod
+        kayıtları cihazınızdaki yerel veritabanında saklanır. Bu kayıtlar QR içeriğini, kayıt adını
+        ve oluşturulma tarih/saatini içerebilir. Misafir QR kayıtları Firebase Realtime Database'e
+        yüklenmez.
+      </p>
+    </div>
+
+    <div class="card">
+      <strong>Hesaplı kullanım</strong>
+      <p>
+        Hesap oluşturduğunuzda Firebase Authentication e-posta adresinizi, parolanızı ve
+        kimlik doğrulama ile ilgili teknik verileri işler. QR Coder parolanızı kendi
+        SharedPreferences/yerel tercih deposunda düz metin olarak saklamaz.
+      </p>
+      <p>
+        E-posta adresiniz doğrulandıktan sonra oluşturduğunuz veya kaydettiğiniz QR kayıtları
+        hesabınıza bağlı kullanıcı kimliği altında Firebase Realtime Database'de saklanabilir.
+        Bu kayıtlar QR içeriğini, kayıt adını ve oluşturulma tarih/saatini içerebilir.
+      </p>
+    </div>
+
+    <h3>3. Android paylaşım (Share Intent) verileri</h3>
+    <p>
+      Başka bir Android uygulamasından QR Coder'a <code>text/plain</code> türünde bir metin veya
+      bağlantı paylaştığınızda bu içerik QR kod oluşturmak için işlenir. Oturum açmış ve doğrulanmış
+      bir kullanıcıysanız ilgili kayıt bulut hesabınıza; misafir modundaysanız cihazdaki yerel
+      veritabanına kaydedilebilir.
+    </p>
+
+    <h3>4. Kamera ve barkod/QR tarama</h3>
+    <p>
+      QR Coder, QR ve barkodları taramak için kamera izni ister. Kamera görüntüsü tarama özelliğini
+      sağlamak amacıyla cihaz üzerinde işlenir. QR Coder ham kamera görüntülerini kendi Firebase
+      veritabanına yüklemek amacıyla kullanmaz. Taramadan elde edilen metin/veri, kullanıcı
+      kaydetmeyi seçtiğinde misafir veya hesaplı kullanım modeline göre saklanabilir.
+    </p>
+
+    <h3>5. QR görsellerini kaydetme ve paylaşma</h3>
+    <p>
+      Oluşturduğunuz QR görselini galeriye kaydetmeyi seçerseniz uygulama PNG görselini cihazınızın
+      medya alanına kaydeder. Paylaşmayı seçerseniz geçici bir QR görseli oluşturulur ve Android
+      paylaşım arayüzü üzerinden seçtiğiniz uygulamaya gönderilir. Bu paylaşım kullanıcı tarafından
+      başlatılır.
+    </p>
+
+    <h3>6. Reklamlar, UMP ve reklam verileri</h3>
+    <p>
+      QR Coder, banner ve ödüllü reklamlar için Google AdMob / Google Mobile Ads SDK'yı kullanır.
+      Uygulanabilir bölgelerde gizlilik ve reklam tercihleri Google User Messaging Platform (UMP)
+      aracılığıyla yönetilir. UMP reklam isteğine izin vermeden reklam isteği yapılmaması amaçlanır.
+    </p>
+    <p>
+      Google Mobile Ads SDK; reklam sunumu, analiz ve sahtekârlığı önleme gibi amaçlarla IP adresi,
+      uygulama içi etkileşimler, tanılama bilgileri ve cihaz/hesap tanımlayıcıları (Android reklam
+      kimliği gibi) işleyebilir. Reklam kişiselleştirme ve ilgili seçimler, uygulanabilir olduğunda
+      gösterilen UMP gizlilik mesajındaki tercihlerinize bağlıdır.
+    </p>
+
+    <h3>7. Firebase tarafından işlenen teknik veriler</h3>
+    <p>
+      Firebase Authentication; kimlik doğrulama ve kötüye kullanımı önleme amacıyla e-posta adresi,
+      parola, kullanıcı aracısı (user agent) ve IP adresi gibi bilgileri işleyebilir. Firebase
+      Realtime Database, hizmetin işletilmesi ve kullanım eğilimlerinin anlaşılması gibi amaçlarla
+      IP adresi ve kullanıcı aracısı bilgilerini işleyebilir.
+    </p>
+
+    <h3>8. Verileri hangi amaçlarla kullanıyoruz?</h3>
+    <ul>
+      <li>QR kod oluşturmak, taramak, görüntülemek, saklamak, düzenlemek ve silmek,</li>
+      <li>kullanıcı hesabı oluşturmak, e-posta doğrulaması yapmak, giriş ve parola sıfırlama işlemlerini yürütmek,</li>
+      <li>hesaplı kullanıcıların QR kayıtlarını cihazlar arasında bulut üzerinden erişilebilir kılmak,</li>
+      <li>kullanıcı tarafından başlatılan galeriye kaydetme ve paylaşma işlemlerini gerçekleştirmek,</li>
+      <li>reklam sunmak, reklam tercihlerini yönetmek, ölçüm ve sahtekârlığı önleme faaliyetlerini desteklemek,</li>
+      <li>uygulamanın güvenliğini, kararlılığını ve işlevselliğini sağlamak.</li>
+    </ul>
+
+    <h3>9. Üçüncü taraf hizmet sağlayıcılar</h3>
+    <p>QR Coder aşağıdaki Google hizmetlerini kullanır:</p>
+    <ul>
+      <li><strong>Firebase Authentication</strong> – hesap oluşturma, oturum açma, e-posta doğrulama ve parola sıfırlama,</li>
+      <li><strong>Firebase Realtime Database</strong> – doğrulanmış hesapların bulut QR kayıtlarının saklanması,</li>
+      <li><strong>Google AdMob / Google Mobile Ads SDK</strong> – banner ve ödüllü reklamlar,</li>
+      <li><strong>Google User Messaging Platform (UMP)</strong> – uygulanabilir gizlilik ve reklam tercihleri.</li>
+    </ul>
+    <p>
+      Bu hizmetlerin kendi veri işleme ve saklama uygulamaları Google'ın geçerli gizlilik ve
+      hizmet şartlarına tabidir.
+    </p>
+
+    <h3>10. Veri güvenliği</h3>
+    <p>
+      Hesaplı QR verileri Firebase Security Rules ile kullanıcı kimliğine göre sınırlandırılır ve
+      doğrulanmamış hesapların bulut QR verilerine erişmesi engellenir. Firebase hizmetleri veri
+      iletiminde şifreleme kullanır ve ilgili Firebase hizmetleri verileri bekleme halinde de
+      şifreleyebilir. Buna rağmen hiçbir elektronik iletim veya depolama yöntemi yüzde 100 güvenli
+      olarak garanti edilemez.
+    </p>
+
+    <h3>11. Veri saklama ve silme</h3>
+    <ul>
+      <li>
+        <strong>Misafir QR kayıtları:</strong> cihazınızın yerel depolamasında siz silene, uygulama
+        verilerini temizleyene veya uygulamayı kaldırana kadar kalabilir.
+      </li>
+      <li>
+        <strong>Bulut QR kayıtları:</strong> siz kayıtları silene veya hesabınız ve ilişkili
+        verileriniz için silme talebi oluşturana kadar saklanabilir.
+      </li>
+      <li>
+        <strong>Kimlik doğrulama verileri:</strong> hesap silme işlemine kadar Firebase
+        Authentication tarafından saklanabilir. Hizmet sağlayıcıların yedek ve güvenlik
+        kayıtlarında sınırlı süreli saklama kendi politikalarına tabi olabilir.
+      </li>
+      <li>
+        <strong>Reklam/teknik veriler:</strong> Google tarafından ilgili reklam, güvenlik,
+        sahtekârlık önleme ve yasal saklama politikalarına göre işlenebilir.
+      </li>
+    </ul>
+
+    <p>
+      Hesabınızın ve ilişkili bulut QR verilerinizin silinmesini
+      <a href="account-deletion.html">Hesap Silme / Account Deletion</a> sayfasından talep
+      edebilirsiniz.
+    </p>
+
+    <h3>12. Kullanıcı tercihleri ve hakları</h3>
+    <p>
+      Uygulanabilir olduğu ölçüde verilerinize erişme, düzeltme veya silme talebinde
+      bulunabilirsiniz. Reklam ve gizlilik tercihleri için UMP gizlilik seçenekleri uygulama
+      içinde sunulabilir. Android reklam kimliği tercihleri ayrıca cihazınızın Android ayarlarından
+      yönetilebilir.
+    </p>
+
+    <h3>13. Çocukların gizliliği</h3>
+    <p>
+      QR Coder 13 yaşın altındaki çocuklara yönelik olarak tasarlanmamıştır. 13 yaşın altındaki
+      bir çocuğa ait kişisel verinin bilerek toplandığını fark edersek uygun silme işlemlerini
+      gerçekleştirmek için gerekli adımları atarız.
+    </p>
+
+    <h3>14. Uluslararası veri işleme</h3>
+    <p>
+      Firebase ve Google reklam hizmetleri küresel altyapı kullanabilir. Bu nedenle veriler,
+      bulunduğunuz ülke dışındaki ülkelerde işlenebilir. Firebase Authentication hizmetinin
+      Google tarafından Amerika Birleşik Devletleri'ndeki veri merkezlerinden sağlandığı
+      bildirilmektedir.
+    </p>
+
+    <h3>15. Değişiklikler</h3>
+    <p>
+      Bu politika uygulamanın özellikleri, kullanılan SDK'lar veya yasal gereklilikler değiştiğinde
+      güncellenebilir. Güncel sürüm bu sayfada yayınlanır ve "Son güncelleme" tarihi değiştirilir.
+    </p>
+
+    <h3>16. İletişim</h3>
+    <p>
+      Gizlilik, veri silme veya bu politika hakkında sorular için:
+      <a href="mailto:fatihcelebi13@gmail.com">fatihcelebi13@gmail.com</a>
+    </p>
+  </section>
+
+  <hr>
+
+  <section id="en" lang="en">
+    <h2>English</h2>
+
+    <h3>1. Scope</h3>
+    <p>
+      This Privacy Policy explains how the QR Coder mobile application handles user and device
+      data. QR Coder can be used as a guest without creating an account, or with cloud features by
+      creating an account with an email address and password.
+    </p>
+
+    <h3>2. Types of data we process</h3>
+    <div class="card">
+      <strong>Guest use</strong>
+      <p>
+        If you continue without creating an account, QR records you create or scan and save are
+        stored in a local database on your device. These records may include QR content, a record
+        name, and the creation date/time. Guest QR records are not uploaded to Firebase Realtime
+        Database.
+      </p>
+    </div>
+
+    <div class="card">
+      <strong>Account use</strong>
+      <p>
+        When you create an account, Firebase Authentication processes your email address, password,
+        and authentication-related technical data. QR Coder does not store your password in plain
+        text in its own SharedPreferences/local preference storage.
+      </p>
+      <p>
+        After your email address is verified, QR records you create or save may be stored in
+        Firebase Realtime Database under the user ID associated with your account. These records
+        may include QR content, a record name, and the creation date/time.
+      </p>
+    </div>
+
+    <h3>3. Android share intent data</h3>
+    <p>
+      When you share text or a link of type <code>text/plain</code> to QR Coder from another Android
+      app, that content is processed to create a QR code. If you are a signed-in and verified user,
+      the record may be saved to your cloud account; if you are in guest mode, it may be saved to
+      the local database on your device.
+    </p>
+
+    <h3>4. Camera and barcode/QR scanning</h3>
+    <p>
+      QR Coder requests camera permission to scan QR codes and barcodes. Camera imagery is processed
+      on the device to provide the scanning feature. QR Coder does not use raw camera imagery for
+      uploading to its Firebase database. Text/data obtained from a scan may be stored according to
+      the guest or account storage model when you choose to save it.
+    </p>
+
+    <h3>5. Saving and sharing QR images</h3>
+    <p>
+      If you choose to save a generated QR image, the app saves a PNG image to your device's media
+      storage/gallery. If you choose to share it, a temporary QR image is created and transferred
+      through the Android share interface to the app you select. This transfer is initiated by you.
+    </p>
+
+    <h3>6. Advertising, UMP, and advertising data</h3>
+    <p>
+      QR Coder uses Google AdMob / Google Mobile Ads SDK for banner and rewarded ads. Where
+      applicable, privacy and advertising choices are managed through Google's User Messaging
+      Platform (UMP). The app is designed not to request ads until UMP indicates that ad requests
+      are allowed.
+    </p>
+    <p>
+      The Google Mobile Ads SDK may process IP address, user product interactions, diagnostic
+      information, and device/account identifiers (such as the Android advertising ID) for
+      purposes such as advertising, analytics, and fraud prevention. Where applicable,
+      personalization and related advertising choices are subject to the preferences you make in
+      the UMP privacy message.
+    </p>
+
+    <h3>7. Technical data processed by Firebase</h3>
+    <p>
+      Firebase Authentication may process information such as email address, password, user agent,
+      and IP address for authentication and abuse prevention. Firebase Realtime Database may process
+      IP address and user-agent information for service operation and usage-trend purposes.
+    </p>
+
+    <h3>8. Why we use data</h3>
+    <ul>
+      <li>to create, scan, display, store, edit, and delete QR codes;</li>
+      <li>to create user accounts, verify email addresses, sign users in, and handle password resets;</li>
+      <li>to make cloud QR records available to signed-in users;</li>
+      <li>to perform user-initiated gallery saving and sharing;</li>
+      <li>to serve ads, manage advertising/privacy choices, support measurement, and prevent fraud;</li>
+      <li>to maintain the security, stability, and functionality of the app.</li>
+    </ul>
+
+    <h3>9. Third-party service providers</h3>
+    <p>QR Coder uses the following Google services:</p>
+    <ul>
+      <li><strong>Firebase Authentication</strong> – account creation, sign-in, email verification, and password reset;</li>
+      <li><strong>Firebase Realtime Database</strong> – storage of cloud QR records for verified accounts;</li>
+      <li><strong>Google AdMob / Google Mobile Ads SDK</strong> – banner and rewarded ads;</li>
+      <li><strong>Google User Messaging Platform (UMP)</strong> – applicable privacy and advertising choices.</li>
+    </ul>
+    <p>
+      These services are also subject to Google's applicable privacy practices and service terms.
+    </p>
+
+    <h3>10. Data security</h3>
+    <p>
+      Cloud QR data is restricted by Firebase Security Rules based on user identity, and unverified
+      accounts are prevented from accessing cloud QR data. Firebase uses encryption in transit and
+      relevant Firebase services may also encrypt data at rest. However, no electronic transmission
+      or storage method can be guaranteed to be 100% secure.
+    </p>
+
+    <h3>11. Data retention and deletion</h3>
+    <ul>
+      <li>
+        <strong>Guest QR records:</strong> may remain in local device storage until you delete them,
+        clear the app's data, or uninstall the app.
+      </li>
+      <li>
+        <strong>Cloud QR records:</strong> may remain until you delete the records or request deletion
+        of your account and associated data.
+      </li>
+      <li>
+        <strong>Authentication data:</strong> may be retained by Firebase Authentication until the
+        account is deleted. Limited retention in service-provider backups or security logs may be
+        subject to the provider's own retention policies.
+      </li>
+      <li>
+        <strong>Advertising/technical data:</strong> may be processed by Google according to its
+        applicable advertising, security, fraud-prevention, and legal retention policies.
+      </li>
+    </ul>
+
+    <p>
+      You may request deletion of your account and associated cloud QR data through the
+      <a href="account-deletion.html">Account Deletion</a> page.
+    </p>
+
+    <h3>12. User choices and rights</h3>
+    <p>
+      Where applicable, you may request access to, correction of, or deletion of your data.
+      Advertising/privacy choices may be available in the app through UMP privacy options.
+      Android advertising ID choices can also be managed through your device's Android settings.
+    </p>
+
+    <h3>13. Children's privacy</h3>
+    <p>
+      QR Coder is not designed for children under 13. If we learn that personal data from a child
+      under 13 has been knowingly collected, we will take appropriate steps to delete it.
+    </p>
+
+    <h3>14. International processing</h3>
+    <p>
+      Firebase and Google advertising services may use global infrastructure. As a result, data may
+      be processed in countries outside your country of residence. Google states that Firebase
+      Authentication is operated from data centers in the United States.
+    </p>
+
+    <h3>15. Changes</h3>
+    <p>
+      We may update this policy when app features, SDKs, or legal requirements change. The current
+      version will be published on this page and the "Last updated" date will be revised.
+    </p>
+
+    <h3>16. Contact</h3>
+    <p>
+      For privacy, data deletion, or policy questions:
+      <a href="mailto:fatihcelebi13@gmail.com">fatihcelebi13@gmail.com</a>
+    </p>
+  </section>
+</main>
+</body>
+</html>
